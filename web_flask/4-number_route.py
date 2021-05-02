@@ -32,6 +32,7 @@ def pythoniscool(text="is cool"):
     text = text.replace("_", " ")
     return "Python " + text
 
+
 @app.route("/number/<int:n>", strict_slashes=False)
 def nisint(n):
     """Returns n is a number, only if n is an integer"""
