@@ -22,6 +22,7 @@ def id_state(id):
             return render_template("9-states.html", state=state)
     return render_template("9-states.html")
 
+
 @app.teardown_appcontext
 def teardown(exc):
     """Closing session"""
